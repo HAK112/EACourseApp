@@ -1,0 +1,65 @@
+[
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "To work with home page",
+    "tags": [],
+    "uri": "D:\\Angular automation with Protractor + Typescript + Cucumber\\7. Cucumber Reporting with Protractor\\3.1 EACourseApp_WithReporting.zip\\EACourseApp\\test\\features\\Home.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Search course from external Data Source",
+        "tags": [
+          {
+            "line": 19,
+            "name": "@regression"
+          }
+        ],
+        "id": "to-work-with-home-page;search-course-from-external-data-source",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to application",
+            "result": {
+              "status": "passed",
+              "duration": 1863
+            },
+            "line": 21,
+            "match": {
+              "location": "EACourseApp_WithReporting.zip\\EACourseApp\\test\\steps\\HomeSteps.ts:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter text in Search from external data Source",
+            "result": {
+              "status": "passed",
+              "duration": 155
+            },
+            "line": 22,
+            "match": {
+              "location": "EACourseApp_WithReporting.zip\\EACourseApp\\test\\steps\\HomeSteps.ts:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I get all the heading",
+            "result": {
+              "status": "passed",
+              "duration": 139
+            },
+            "line": 23,
+            "match": {
+              "location": "EACourseApp_WithReporting.zip\\EACourseApp\\test\\steps\\HomeSteps.ts:16"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "to-work-with-home-page"
+  }
+]

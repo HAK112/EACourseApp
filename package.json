@@ -1,5 +1,5 @@
 {
-  "name": "EA Course App",
+  "name": "EACourseApp",
   "version": "1.0.0",
   "scripts": {
     "start": "concurrently \"npm run tsc:w\" \"npm run server\" ",
@@ -25,6 +25,8 @@
     "@angular/platform-browser-dynamic": "~2.2.0",
     "@angular/router": "~3.2.0",
     "@angular/upgrade": "~2.2.0",
+    "@types/cucumber": "^2.0.1",
+    "@types/jasmine": "^2.5.47",
     "core-js": "~2.4.1",
     "ng2f-bootstrap": "~0.0.4",
     "ng2f-server": "~0.2.3",
@@ -35,10 +37,22 @@
     "zone.js": "~0.6.26"
   },
   "devDependencies": {
-    "concurrently": "2.2.0",
-    "typescript": "~2.0.3",
+    "@types/chai": "^4.0.1",
     "@types/core-js": "~0.9.34",
-    "@types/node": "~6.0.46"
+    "@types/load-json-file": "^2.0.5",
+    "@types/node": "~6.0.46",
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.0.0",
+    "concurrently": "2.2.0",
+    "cucumber": "^2.3.1",
+    "cucumber-html-reporter": "^2.0.0",
+    "jasmine": "^2.5.3",
+    "load-json-file": "^2.0.0",
+    "protractor": "^5.1.1",
+    "protractor-cucumber-framework": "^3.1.2",
+    "ts-node": "^3.1.0",
+    "ts-xlsx": "0.0.11",
+    "typescript": "^2.3.4"
   },
   "repository": {}
 }

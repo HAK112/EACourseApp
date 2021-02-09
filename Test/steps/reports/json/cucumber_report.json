@@ -1,0 +1,106 @@
+[
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "To work with home page",
+    "tags": [],
+    "uri": "C:\\E2EAutomation\\EACourseApp\\Test\\features\\Home.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Click course of application",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smoke"
+          }
+        ],
+        "id": "to-work-with-home-page;click-course-of-application",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I get all the heading",
+            "result": {
+              "status": "passed",
+              "duration": 135
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\E2EAutomation\\EACourseApp\\Test\\steps\\HomeSteps.ts:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the 'Selenium framework development' course",
+            "result": {
+              "status": "passed",
+              "duration": 272
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\E2EAutomation\\EACourseApp\\Test\\steps\\HomeSteps.ts:19"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Click course of application second time",
+        "tags": [
+          {
+            "line": 9,
+            "name": "@smoke"
+          }
+        ],
+        "id": "to-work-with-home-page;click-course-of-application-second-time",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I get all the heading",
+            "result": {
+              "status": "passed",
+              "duration": 95
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\E2EAutomation\\EACourseApp\\Test\\steps\\HomeSteps.ts:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the 'Selenium framework development' course",
+            "result": {
+              "status": "passed",
+              "duration": 182
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\E2EAutomation\\EACourseApp\\Test\\steps\\HomeSteps.ts:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see 'Selenium framework development' course in coursedetails page",
+            "result": {
+              "status": "failed",
+              "duration": 13,
+              "error_message": "AssertionError: expected [Function] to be null\n    at Object.<anonymous> (C:\\E2EAutomation\\EACourseApp\\Test\\steps\\HomeSteps.ts:24:53)\n    at step (C:\\E2EAutomation\\EACourseApp\\Test\\steps\\HomeSteps.js:32:23)\n    at Object.next (C:\\E2EAutomation\\EACourseApp\\Test\\steps\\HomeSteps.js:13:53)\n    at C:\\E2EAutomation\\EACourseApp\\Test\\steps\\HomeSteps.js:7:71\n    at __awaiter (C:\\E2EAutomation\\EACourseApp\\Test\\steps\\HomeSteps.js:3:12)\n    at World.<anonymous> (C:\\E2EAutomation\\EACourseApp\\Test\\steps\\HomeSteps.ts:23:81)"
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\E2EAutomation\\EACourseApp\\Test\\steps\\HomeSteps.ts:23"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "to-work-with-home-page"
+  }
+]
